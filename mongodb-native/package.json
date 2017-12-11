@@ -1,5 +1,5 @@
 {
-  "name": "weather",
+  "name": "mongodb-native",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,8 +9,12 @@
   "author": "Norhan El-Nezamy",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.17.1",
-    "request": "^2.83.0",
-    "yargs": "^10.0.3"
+    "body-parser": "^1.18.2",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "mongodb": "^2.2.5",
+    "mongoose": "^4.5.9",
+    "validator": "^9.2.0"
   }
 }
